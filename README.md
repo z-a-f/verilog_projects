@@ -5,7 +5,6 @@ verilog_projects
       * The project is designed for Nexys 3 Spartan 6 board
       * The tutorial for the sprites is located at
       *   http://www.lbebooks.com/downloads/exportal/VHDL_NEXYS_Example24.pdf
-      * 
       * Files/Folders included:
         - vga_sprites/
           - image.xise        // Project for Xilinx ISE 13.3
