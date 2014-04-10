@@ -1,0 +1,6 @@
+verilog work "vga_controller_640_60.v"
+verilog work "vga_bsprite.v"
+verilog work "ipcore_dir/game_over_mem.v"
+verilog work "vga_display.v"
+verilog work "test_vga.v"
+verilog work "C:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v"

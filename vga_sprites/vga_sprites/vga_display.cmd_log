@@ -1,0 +1,50 @@
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf 
+bitgen -intstyle ise -f vga_display.ut vga_display.ncd 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display.ut vga_display.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf -ucf vga_display.ucf 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display.ut vga_display.ncd 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display.ut vga_display.ncd 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display.ut vga_display.ncd 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display.ut vga_display.ncd 
+xst -intstyle ise -ifn "X:/EC551/image/vga_display.xst" -ofn "X:/EC551/image/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display.ngc vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_map.ncd vga_display.ncd vga_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display.twx vga_display.ncd -o vga_display.twr vga_display.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display.ut vga_display.ncd 

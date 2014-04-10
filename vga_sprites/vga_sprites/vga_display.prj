@@ -1,0 +1,4 @@
+verilog work "vga_controller_640_60.v"
+verilog work "vga_bsprite.v"
+verilog work "ipcore_dir/game_over_mem.v"
+verilog work "vga_display.v"

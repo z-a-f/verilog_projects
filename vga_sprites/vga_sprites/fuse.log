@@ -1,0 +1,33 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "X:/EC551/image/test_vga_isim_beh.exe" -prj "X:/EC551/image/test_vga_beh.prj" "work.test_vga" "work.glbl" 
+ISim O.76xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "X:/EC551/image/vga_controller_640_60.v" into library work
+Analyzing Verilog file "X:/EC551/image/vga_bsprite.v" into library work
+Analyzing Verilog file "X:/EC551/image/ipcore_dir/game_over_mem.v" into library work
+Analyzing Verilog file "X:/EC551/image/vga_display.v" into library work
+Analyzing Verilog file "X:/EC551/image/test_vga.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "X:/EC551/image/vga_display.v" Line 67: Size mismatch in connection of port <x0>. Formal port size is 11-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "X:/EC551/image/vga_display.v" Line 68: Size mismatch in connection of port <y0>. Formal port size is 11-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "X:/EC551/image/vga_display.v" Line 69: Size mismatch in connection of port <x1>. Formal port size is 11-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "X:/EC551/image/vga_display.v" Line 70: Size mismatch in connection of port <y1>. Formal port size is 11-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module vga_controller_640_60
+Compiling module vga_bsprite
+Compiling module BLK_MEM_GEN_V6_2_output_stage(C_...
+Compiling module BLK_MEM_GEN_V6_2_softecc_output_...
+Compiling module BLK_MEM_GEN_V6_2_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V6_2(C_FAMILY="spart...
+Compiling module game_over_mem
+Compiling module vga_display
+Compiling module test_vga
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable X:/EC551/image/test_vga_isim_beh.exe
+Fuse Memory Usage: 30812 KB
+Fuse CPU Usage: 717 ms
