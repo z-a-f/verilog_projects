@@ -1,4 +1,4 @@
-verilog_projects
+VGA
 ================
 
 1.  vga_sprites
