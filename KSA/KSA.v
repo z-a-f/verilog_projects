@@ -50,5 +50,5 @@ module KSA (s, a, b, c);
   // At this point all the carries are stored in the Glvl[LEVELS][BITS-1:0]
 
   // Calculate sum by shifting the carries left by 1 bit:
-  assign s = {1'b0, Plvl[0]}^{Glvl[LEVELS], 1'b0};
+  assign s = {1'b0, Plvl[0]}^{Glvl[LEVELS], c};
 endmodule
