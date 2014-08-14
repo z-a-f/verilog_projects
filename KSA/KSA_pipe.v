@@ -28,7 +28,7 @@ module KSA_pipe(s, a, b, c, clk);
 	REG 				inputBUF_C (cIn, c, clk);
 
 	// Adder:
-	KSA #(.BITS(BITS), .LEVELS(LEVELS))adder4 (s_KSA, a, b, 1'b0);
+	KSA #(.BITS(BITS), .LEVELS(LEVELS))adder4 (sOut, aIn, bIn, 1'b0);
 
 	// Output Buffers:
 	REGS #(.BITS(BITS+1)) outputBUF_S (s, sOut, clk);
