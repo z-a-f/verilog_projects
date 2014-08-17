@@ -27,7 +27,9 @@ module KSA_pipe(s, a, b, c, clk);
    end
    
    // Adder:
-   KSA #(.BITS(BITS), .LEVELS(LEVELS))adder4 (sOut, aIn, bIn, cIn);
+   KSA 
+     #(.BITS(BITS), .LEVELS(LEVELS))
+   adder4 (sOut, aIn, bIn, cIn);
    
    // Output Buffers:
    always @ (posedge clk) begin
