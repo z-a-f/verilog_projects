@@ -1,6 +1,7 @@
 module KSA_pipe(s, a, b, c, clk);
+   // Parameters for KSA bitlength
    parameter BITS = 64;
-   parameter LEVELS = 6;
+   parameter LEVELS = 6;	// $floor($clog2(BITS))
    
    // IO's
    input [BITS-1:0]	a;
