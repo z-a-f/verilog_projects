@@ -1,5 +1,3 @@
-
-
 module KSA_pipe(s, a, b, c, clk);
 	parameter BITS = 64;
 	parameter LEVELS = 6;
